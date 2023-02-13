@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="get">
+	<form method="post">
 		<div>
 			<label for="name">Name*</label>
 			<input type="text" id="name" required>
@@ -19,6 +19,7 @@
 		</div>
 		<div>
 			<label for="gender">Gender*</label>
+			<input type="radio" id="gender" name="gender" required>
 			<input type="radio" id="gender" name="gender" required>
 		</div>
 		<div>
@@ -42,11 +43,13 @@
 			<label for="password">Password*</label>
 			<input type="password" id="password" required>
 		</div>
+		
 		<div>
-			<button type="button">submit button</button>
+			<label for="portfolio">Portfolio</label>
+			<input type="url" id="portfolio">
 		</div>
 		<div>
-			<input type="url" id="portfolio">
+			<button type="button">Submit</button>
 		</div>
 	</form>
     <script type="text/javascript" src="./script.js">
